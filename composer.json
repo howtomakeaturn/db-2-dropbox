@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "kunalvarma05/dropbox-php-sdk": "^0.2.0"
+        "kunalvarma05/dropbox-php-sdk": "^0.2.0",
+        "ifsnop/mysqldump-php": "2.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~5.0",
