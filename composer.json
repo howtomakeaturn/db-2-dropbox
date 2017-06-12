@@ -9,9 +9,12 @@
             "email": "howtomakeaturn@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "kunalvarma05/dropbox-php-sdk": "^0.2.0"
+    },
     "require-dev": {
-        "phpunit/phpunit": "~5.0"
+        "phpunit/phpunit": "~5.0",
+        "vlucas/phpdotenv": "^2.4"
     },
     "autoload": {
          "psr-4": {
