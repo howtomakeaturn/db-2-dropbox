@@ -1,0 +1,21 @@
+{
+    "name": "root/google-drive-database-backup",
+    "description": "Backup your database to google drive easily.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "howtomakeaturn",
+            "email": "howtomakeaturn@hotmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+         "psr-4": {
+            "Howtomakeaturn\\Gddb\\": "src/"
+         }
+    }
+}
