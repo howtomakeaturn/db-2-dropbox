@@ -4,10 +4,8 @@ namespace Howtomakeaturn\Gddb;
 
 class Gddb
 {
-
-    function hello()
+    public function hello()
     {
         return 'hello world';
     }
-
 }
