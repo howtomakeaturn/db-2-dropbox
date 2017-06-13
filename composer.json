@@ -21,8 +21,5 @@
          "psr-4": {
             "Howtomakeaturn\\Db2d\\": "src/"
          }
-    },
-    "autoload-dev": {
-        "psr-4": { "Howtomakeaturn\\Db2d\\Tests\\": "tests/" }
     }
 }
