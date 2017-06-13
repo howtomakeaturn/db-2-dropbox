@@ -21,5 +21,8 @@
          "psr-4": {
             "Howtomakeaturn\\Db2d\\": "src/"
          }
+    },
+    "autoload-dev": {
+        "classmap": [ "tests/" ]
     }
 }
