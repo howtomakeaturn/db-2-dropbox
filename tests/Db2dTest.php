@@ -1,13 +1,13 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Howtomakeaturn\Gddb\Gddb;
+use Howtomakeaturn\Db2d\Db2d;
 
 class GddbTest extends TestCase
 {
     public function test_hello()
     {
-        $gddb = new Gddb();
+        $gddb = new Db2d();
 
         $this->assertEquals($gddb->hello(), 'hello world');
     }

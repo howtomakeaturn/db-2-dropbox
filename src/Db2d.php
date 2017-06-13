@@ -1,8 +1,8 @@
 <?php
 
-namespace Howtomakeaturn\Gddb;
+namespace Howtomakeaturn\Db2d;
 
-class Gddb
+class Db2d
 {
     public function hello()
     {

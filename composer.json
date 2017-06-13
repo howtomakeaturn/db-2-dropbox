@@ -1,6 +1,6 @@
 {
-    "name": "root/google-drive-database-backup",
-    "description": "Backup your database to google drive easily.",
+    "name": "howtomakeaturn/db-2-dropbox",
+    "description": "Backup your database to dropbox easily.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
          "psr-4": {
-            "Howtomakeaturn\\Gddb\\": "src/"
+            "Howtomakeaturn\\Db2d\\": "src/"
          }
     }
 }
