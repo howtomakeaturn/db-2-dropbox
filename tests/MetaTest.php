@@ -14,6 +14,8 @@ class MetaTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
+        $this->markTestSkipped();
+
         // Attempt to look for the PSR-2 linter on the command path.
         // Downloadable from http://get.sensiolabs.org/php-cs-fixer.phar.
         foreach ($this->commands as $command) {
