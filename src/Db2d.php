@@ -13,11 +13,6 @@ class Db2d
 
     private $uploader;
 
-    public function dump()
-    {
-        $this->dumper->start('dump.sql');
-    }
-
     public function configureDatabase($db, $username, $password)
     {
         $this->dumper = new Mysqldump("mysql:host=localhost;dbname=$db", $username, $password);
