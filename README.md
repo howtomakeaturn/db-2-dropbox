@@ -9,7 +9,7 @@ composer require "howtomakeaturn/db-2-dropbox"
 
 # Usage
 
-Get dropbox app key, secret, and access token from [Dropbox App Console](https://www.dropbox.com/developers/apps)
+Get dropbox app key, secret, and access token from [Dropbox App Console](https://www.dropbox.com/developers/apps) (Choose 'App folder' for the type)
 
 ```php
 $db2d = new Db2d();
