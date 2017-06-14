@@ -16,6 +16,8 @@ class Db2d
     public function configureDatabase($db, $username, $password)
     {
         $this->dumper = new Mysqldump("mysql:host=localhost;dbname=$db", $username, $password);
+        
+        return $this;
     }
 
     public function configureDropbox($key, $secret, $token)
@@ -23,6 +25,8 @@ class Db2d
         $app = new DropboxApp($key, $secret, $token);
 
         $this->uploader = new Dropbox($app);
+        
+        return $this;
     }
 
     public function backup()
